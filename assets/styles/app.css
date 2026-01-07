@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", monospace;
+}
+
+body {
+    background: black;
+    color: #00ff66;
+    overflow: hidden;
+}
+
+#overlay {
+    position: fixed;
+    inset: 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    z-index: 10;
+    animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.container {
+    padding: 20px;
+    opacity: 0;
+    animation: show 4s forwards;
+}
+
+@keyframes show {
+    to {
+        opacity: 1;
+    }
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ff66;
+}
+
+.cctv {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.cam {
+    flex: 1;
+    height: 120px;
+    border: 1px solid #00ff66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: glitch 0.2s infinite alternate;
+}
+
+@keyframes glitch {
+    from {
+        opacity: 0.6;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.terminal {
+    border: 1px solid #00ff66;
+    padding: 10px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #00ff66;
+}
+
+.warning {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
