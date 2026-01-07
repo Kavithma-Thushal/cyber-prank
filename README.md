@@ -1,10 +1,9 @@
 # 🟢 Cyber Prank 🟢
 
-**Cyber Prank** is a cinematic, hacker-style prank web experience built just for fun 😈  
-When someone opens this project, it **simulates a fake hacking scene** with green-themed visuals, CCTV-style panels, and auto-typing terminal code — making it look like their system is being accessed.
-
-⚠️ **This project does NOT perform any real hacking.**  
-It is a **100% visual prank**, safe, harmless, and created only for entertainment purposes.
+Cyber Prank is a cinematic, hacker-style prank web experience built just for fun😈 When someone opens this project, it
+simulates a fake hacking scene with green-themed visuals, CCTV-style panels, and auto-typing terminal code — making it
+look like their system is being accessed. It is a 100% visual prank, safe, harmless, and created only for entertainment
+purposes.
 
 ## 🛠️ Technologies
 
@@ -26,12 +25,15 @@ It is a **100% visual prank**, safe, harmless, and created only for entertainmen
 ## 📸 Screenshots
 
 ### Loading / Access Screen
+
 <img src="ss/loading.png">
 
 ### Hacker Simulation Screen
+
 <img src="ss/hacker-view.png">
 
 ### Prank Reveal Screen
+
 <img src="ss/prank.png">
 
 ## 📝 Version
