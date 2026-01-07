@@ -1,3 +1,20 @@
+let progress = 0;
+
+const loader = setInterval(() => {
+    if (progress < 100) {
+        progress += 1;
+        $(".progress-bar").css("width", progress + "%");
+    }
+
+    if (progress === 100) {
+        clearInterval(loader);
+
+        setTimeout(() => {
+            $("#overlay").fadeOut(1000);
+        }, 500);
+    }
+}, 120);
+
 const lines = [
     "Initializing breach protocol...",
     "Bypassing firewall...",
